@@ -1,0 +1,16 @@
+{
+  "name": "BashBack",
+  "version": "1.0.0",
+  "description": "Задание 2",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=3003 nodemon src/app.js ",
+    "start": "cross-env NODE_ENV=3003 node src/app.js"
+  },
+  "author": "",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1"
+  }
+}
